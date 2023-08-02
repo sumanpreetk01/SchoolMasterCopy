@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Gunther Marquand",
+    "email": "gmarquand0@odnoklassniki.ru",
+    "password": "tT7*KIs(0~5/",
+    "userType": "admin"
+  }, {
+    "id": 2,
+    "name": "Amie Geertz",
+    "email": "ageertz1@imageshack.us",
+    "password": "nK9`lf/Z|0\\sVwu",
+    "userType": "faculty"
+  }, {
+    "id": 3,
+    "name": "Charmion Worge",
+    "email": "cworge2@comsenz.com",
+    "password": "mR2\"\\2y)\"{Y=",
+    "userType": "student"
+  }]

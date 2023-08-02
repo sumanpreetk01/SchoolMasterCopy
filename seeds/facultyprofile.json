@@ -1,0 +1,48 @@
+[
+    {
+        "full_name": "John Doe",
+        "email": "john.doe@example.com",
+        "address":"123, Toronto, Ontario",
+        "qualification": "PhD Mathematics",
+        "current_position": "Professor, Head of the Dept",
+        "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpR_6GJUO442noPeWzNqzgNkrlH8rYR0IChw&usqp=CAU",
+        "Bio": "A passionate professor with over 30 years experience in teaching. He has a PhD in Calculus from ABC University. He has a passion for advancing mathematical research and guiding students through complex problem-solving techniques."
+    },
+    {
+      "full_name": "Jane Doe",
+      "email": "Jane.doe@example.com",
+      "address":"453, Victoria, BC",
+      "qualification": "MA Literature",
+      "current_position":"Lecturer",
+      "imageSrc": "https://etradesmart.com/images/Avatar2.png",
+      "Bio":"An esteemed faculty member with a deep appreciation for literary analysis. She has over 10 years experience in teaching and has inspired students to explore diverse works and encouraging critical thinking in literary studies."
+    },
+    {
+      "full_name": "Janice Evans",
+      "email": "Janice.ev@example.com",
+      "address":"678, Barry , Ontario",
+      "qualification": "MTech",
+      "current_position":"Asst Professor",
+      "imageSrc": "https://www.clipartmax.com/png/small/75-752071_teacher-icon-teacher-icon-png.png",
+      "Bio":"Renowned physicist with 17 years of experience in teaching at various universities. She is an innovator in the field. She has been imparting theoretical and experimental expertise to students, and fostering a fascination for the fundamental laws of the universe."
+    },
+    {
+      "full_name": "Alex Zen",
+      "email": "Alexzen@example.com",
+      "address":"890, Toronto, Ontario",
+      "qualification": "PhD Genetics",
+      "current_position":"Professor",
+      "imageSrc": "https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small/man-with-beard-avatar-character-isolated-icon-free-vector.jpg",
+      "Bio":"Respected biologist and research scholar in genetics, who has 11 years experience as an educator. He is dedicated to advancing scientific knowledge, leading cutting-edge research, and mentoring the next generation of biologists."
+    },
+    {
+      "full_name": "Benjamin George",
+      "email": "benjigeorge@example.com",
+      "address":"753, Cambridge, Ontario",
+      "qualification": "PhD History",
+      "current_position":"Professor and Dean of Humanities",
+      "imageSrc": "https://www.shareicon.net/data/512x512/2016/04/10/747365_man_512x512.png",
+      "Bio":"Renowned archeologist and historian with 35 years of teaching experience. He has PhD from XYZ University and various publications in World History."
+    }
+  
+  ]

@@ -1,0 +1,22 @@
+<section class="existingstudentProfile" id="existingstudentProfile">
+
+<h1>Student List</h1>
+
+<div class="d-flex justify-content-around p-2 ">
+    {{#each studentprofile as |studentdata|}}
+<div class="card box-shadow-card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title"><a href="/studentprofile{{studentdata.id}}">{{studentdata.full_name}}</a></h5>
+    <p class="card-text">E mail : {{studentdata.email}}</p>
+     <p class="card-text">Address : {{studentdata.address}}</p>
+      <p class="card-text">Parent/Guardian Name : {{studentdata.parent_name}}</p>
+       <p class="card-text">Grades : {{studentdata.grades}}</p>
+        <p class="card-text">Attendance % = {{studentdata.classes_missed}}</p>
+  </div>
+</div>
+    {{/each}}
+
+</div>
+   {{> footer}}
+<script src="/studentprofile.js"></script>

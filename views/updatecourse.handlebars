@@ -1,0 +1,45 @@
+<body>
+  <h1>{{#if course}}Update Course{{else}}Add a New Course{{/if}}</h1>
+  <form class="form {{#if course}}update-course-form{{else}}new-course-form{{/if}}">
+    {{#if course}}
+    <input type="hidden" id="course-id" value="{{course.id}}">
+    {{/if}}
+    <div class="form-group row">
+      <label for="update-course" class="col-sm-2 col-form-label">Course Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="update-course" name="update-course" value="{{#if course}}{{course.course}}{{/if}}">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="update-description" class="col-sm-2 col-form-label">Description:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="update-description" name="update-description" value="{{#if course}}{{course.course_description}}{{/if}}">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="update-department" class="col-sm-2 col-form-label">Department:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="update-department" name="update-department" value="{{#if course}}{{course.department}}{{/if}}">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="update-semester" class="col-sm-2 col-form-label">Semester:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="update-semester" name="update-semester" value="{{#if course}}{{course.semester}}{{/if}}">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="update-fees" class="col-sm-2 col-form-label">Fees:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="update-fees" name="update-fees" value="{{#if course}}{{course.fees}}{{/if}}">
+      </div>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">{{#if course}}Update{{else}}Create{{/if}}</button>
+    </div>
+  </form>
+  <script src="/javascript/updatecourse.js"></script>
+</body>
+
+
+

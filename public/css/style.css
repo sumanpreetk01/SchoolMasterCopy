@@ -1,0 +1,224 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .image-content,
+  .card.text-center {
+    width: 50%; /* Both sections take 50% of the container width */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .image-content {
+    background-color: #f0f0f0; /* Set the background color */
+  }
+  
+  .signup-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  
+  .login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  
+  .login-card {
+    order: 2; /* Set the login card to appear second */
+  }
+  
+  .image-body {
+    order: 1; /* Set the image section to appear first */
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 100px;
+  }
+  
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  } */
+  
+    
+    .login-card {
+      width: 400px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+  
+    .login-card-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #007bff; /* Blue color for the login card title */
+    }
+  
+    .login-label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333; /* Text color for the login labels */
+    }
+  
+    .login-input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+  
+    .login-select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url('arrow.png');
+      background-position: right center;
+      background-repeat: no-repeat;
+      padding-right: 30px;
+    }
+  
+    .login-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+    }
+  
+    .login-button:hover {
+      background-color: #0056b3; /* Darker blue color on hover */
+    }
+  
+    .login-link {
+      display: block;
+      margin-top: 10px;
+      text-align: center;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .box-shadow-card {
+      /* Customize the box shadow properties below as needed */
+      margin-top: 5rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Example box shadow style */
+    }
+
+    /*Navigation bar css*/
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float:right;
+}
+#logo {
+  text-transform: capitalize;
+margin-left:60px;
+float:left;
+font-size: 25px;
+
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+ font-size: larger;
+  font-style: italic;
+  margin-right: 40px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: aliceblue;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  background-color: #000;
+}

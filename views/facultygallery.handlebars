@@ -1,0 +1,23 @@
+
+
+<section class="existingFacultyProfile" id="existingFacultyProfile">
+
+<h1>Our Faculties</h1>
+
+<div class="d-flex justify-content-around p-2 ">
+    {{#each profile as |data|}}
+<div class="card box-shadow-card" style="width: 18rem;">
+  {{!-- <img class="card-img-top" src={{data.imageSrc}} alt="Card image cap"> --}}
+  <div class="card-body">
+    <h5 class="card-title"><a href="/facultygallery/{{data.id}}">{{data.full_name}}</a></h5>
+    <p class="card-text">{{data.Bio}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{data.current_position}}</li>
+  </ul>
+</div>
+    {{/each}}
+
+</div>
+  {{> footer}}
+<script src="/facultyprofile.js"></script>

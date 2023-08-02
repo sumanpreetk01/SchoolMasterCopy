@@ -1,0 +1,44 @@
+[
+    {
+        "full_name": "Andrew Gail",
+        "email": "andrew@example.com",
+        "address":"123, Toronto, Ontario",
+        "parent_name":"Gail Hartley",
+        "grades": "A",
+        "classes_missed": 82
+        
+    },
+    {
+        "full_name": "Jennifer Johnson",
+        "email": "jenjon@example.com",
+        "address":"178, Scarborough, Ontario",
+        "parent_name":"Johnson H",
+        "grades": "B",
+        "classes_missed": 79
+    },
+    {
+      "full_name": "Sandra B",
+      "email": "sandrab@example.com",
+      "address":"678, Burlington , Ontario",
+      "parent_name":"Johnson H",
+      "grades": "C",
+      "classes_missed": 79
+    },
+    {
+        "full_name": "Cassy Ken",
+        "email": "cassyb@example.com",
+        "address":"678, Ajax , Ontario",
+        "parent_name":"Kenny J",
+        "grades": "A",
+        "classes_missed": 92
+    },
+    {
+      "full_name": "Benjamin Jacob",
+      "email": "benjaminjacob@example.com",
+      "address":"753, Cambridge, Ontario",
+      "parent_name":"Jacob R",
+      "grades": "D",
+      "classes_missed": 55
+    }
+  
+  ]

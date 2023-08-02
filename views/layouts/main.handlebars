@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Master</title>
+ <!--fonot awsome link-->
+       <script src="https://kit.fontawesome.com/7d88a43d0e.js" crossorigin="anonymous"></script>
+        <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header id="navheader" class="text-white">
+        <section></section>
+       {{#if loggedIn}}
+       
+        <ul>
+
+          <li>  <a href="/">logout</a></li>
+          <li>  <a href="/dashboard">Coures</a></li>
+           <li> <a href="/profile">Profile</a></li>
+           <li> <a href="/courses">Dashboard</a></li>
+         <li> <a href="/api/users/logout">Home</li>
+            </ul>
+        {{else}}
+
+        <ul>
+             <li id="logo">  <a href="#">School Master</a></li>
+          <li>  <a href="/">Login</a></li>
+         <li>   <a href="/dashboard">Dashboard</a></li>
+         <li>   <a href="/login">Home</a></li>
+        </ul>
+        {{/if}}  
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+</body>
+</html>

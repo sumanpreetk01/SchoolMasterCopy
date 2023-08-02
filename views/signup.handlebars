@@ -1,0 +1,39 @@
+<div class="container">
+<section class="image-content">
+  <div class="img-body">
+<img class="signup-image" src="/assets/images/signup-img image.jpg" alt="Signup Image">
+</div>
+</section>
+
+<section class='card text-center'>
+  <div class='card-body'>
+    <h3 class='card-title'>Sign up to create a new Profile!</h3>
+    <form id='signup'>
+      <div class='card-text'>
+        <label for='name'>Name: </label>
+        <input type='text' placeholder='name' id='name' />
+      </div>
+      <div class='card-text'>
+        <label for='signupUsername'>Email: </label>
+        <input type='email' placeholder='username' id='signupUsername' />
+      </div>
+      <div class='card-text'>
+        <label for='signupPassword'>Password: </label>
+        <input type='password' placeholder='password' id='signupPassword' />
+      </div>
+      <div id='userType' class='card-text'>
+        <label for='userTypeDropdown'>User Type:</label>
+        <select name='userType' id='userTypeDropDown'><br/>
+          <option value='admin'>Admin</option>
+          <option value='student'>Student</option>
+          <option value='faculty'>Faculty</option>
+        </select>
+      </div>
+      <button>Sign Up</button><br />
+      <a href='/login'>Login instead !</a>
+    </form>
+  </div>
+</section>
+</div>
+  {{> footer}}
+<script src='/javascript/signup.js'></script>
